@@ -1,0 +1,141 @@
+/* components/HowItWorks.module.css */
+.howItWorksSection {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f8c10e;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 32px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.stepCard {
+  background-color: #f8f4eb;
+  border-radius: 8px;
+  // padding: 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: 20rem;
+  span {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+  }
+}
+
+.stepHeader {
+  display: flex;
+  align-items: center;
+  // margin-bottom: 16px;
+  position: relative;
+}
+
+.stepNumber {
+  text-align: center;
+  left: 0;
+  width: 200%;
+  transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+  margin-top: 35px;
+  font-size: 13px;
+  line-height: 2;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: #1c3f95;
+  color: #fff;
+}
+
+.stepIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.stepTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #23478d;
+  font-weight: bold;
+}
+
+.stepDescription {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.clients {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.clients p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.clientLogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clientLogos img {
+  // max-height: 40px;
+  width: 10%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .stepsGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+
+  .header h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stepsGrid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+  }
+
+  .header h2 {
+    font-size: 40px;
+  }
+}

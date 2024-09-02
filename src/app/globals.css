@@ -3,31 +3,165 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --e-global-color-primary: #1c3f95;
+  --e-global-color-secondary: #04192a;
+  --e-global-color-text: #3e4751;
+  --e-global-color-accent: #f2b72f;
+  --e-global-color-685488a: #ffffff;
+  --e-global-color-12134c5: #5f676e;
+  --e-global-color-bc0049a: #ffffffd6;
+  --e-global-color-194c9db: #f9f6ef;
+  --e-global-color-235bf06: #ede8e2;
+  --e-global-color-42fa000: #ffffff3b;
+  --e-global-color-5b62b93: #ffffff8c;
+  --e-global-color-6a935a8: #adb7c0;
+  --e-global-color-29a2e6e: #04192a82;
+  --e-global-color-ae543cc: #f2b72fd9;
+  --e-global-color-f894f8e: #ffffff00;
+  --e-global-color-52bf6ec: #1c3f95d4;
+  --e-global-typography-primary-font-family: "Outfit";
+  --e-global-typography-primary-font-size: 52px;
+  --e-global-typography-primary-font-weight: 700;
+  --e-global-typography-primary-line-height: 1.2em;
+  --e-global-typography-secondary-font-family: "Outfit";
+  --e-global-typography-secondary-font-size: 36px;
+  --e-global-typography-secondary-font-weight: 700;
+  --e-global-typography-secondary-line-height: 1.3em;
+  --e-global-typography-text-font-family: "Inter";
+  --e-global-typography-text-font-size: 16px;
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-text-text-transform: none;
+  --e-global-typography-text-font-style: normal;
+  --e-global-typography-text-line-height: 1.5em;
+  --e-global-typography-accent-font-family: "Outfit";
+  --e-global-typography-accent-font-size: 15px;
+  --e-global-typography-accent-font-weight: 600;
+  --e-global-typography-accent-text-transform: uppercase;
+  --e-global-typography-accent-line-height: 1em;
+  --e-global-typography-accent-letter-spacing: 0.2px;
+  --e-global-typography-cedaabf-font-family: "Outfit";
+  --e-global-typography-cedaabf-font-size: 14px;
+  --e-global-typography-cedaabf-font-weight: 600;
+  --e-global-typography-cedaabf-text-transform: uppercase;
+  --e-global-typography-cedaabf-line-height: 1em;
+  --e-global-typography-cedaabf-letter-spacing: 0.3px;
+  --e-global-typography-762e706-font-family: "Outfit";
+  --e-global-typography-762e706-font-size: 16px;
+  --e-global-typography-762e706-font-weight: 400;
+  --e-global-typography-762e706-letter-spacing: 0.2px;
+  --e-global-typography-7de911b-font-family: "Inter";
+  --e-global-typography-7de911b-font-size: 18px;
+  --e-global-typography-7de911b-font-weight: 500;
+  --e-global-typography-7de911b-line-height: 1.5em;
+  --e-global-typography-d42bb18-font-family: "Outfit";
+  --e-global-typography-d42bb18-font-size: 24px;
+  --e-global-typography-d42bb18-font-weight: 600;
+  --e-global-typography-d42bb18-line-height: 1.2em;
+  --e-global-typography-c6d2c9a-font-family: "Outfit";
+  --e-global-typography-c6d2c9a-font-size: 19px;
+  --e-global-typography-c6d2c9a-font-weight: 500;
+  --e-global-typography-c6d2c9a-line-height: 1.2em;
+  --e-global-typography-aa81cf5-font-family: "Outfit";
+  --e-global-typography-aa81cf5-font-size: 17px;
+  --e-global-typography-aa81cf5-font-weight: 500;
+  --e-global-typography-aa81cf5-line-height: 1.3em;
+  --e-global-typography-9426557-font-family: "Outfit";
+  --e-global-typography-9426557-font-size: 15px;
+  --e-global-typography-9426557-font-weight: 500;
+  --e-global-typography-9426557-line-height: 1.3em;
+  --e-global-typography-9a7df28-font-family: "Inter";
+  --e-global-typography-9a7df28-font-size: 16px;
+  --e-global-typography-9a7df28-font-weight: 600;
+  --e-global-typography-9a7df28-line-height: 1.3em;
+  --e-global-typography-9a7df28-letter-spacing: 0px;
+  --e-global-typography-cccaf16-font-family: "Outfit";
+  --e-global-typography-cccaf16-font-size: 16px;
+  --e-global-typography-cccaf16-font-weight: 500;
+  --e-global-typography-cccaf16-text-transform: capitalize;
+  --e-global-typography-cccaf16-line-height: 1em;
+  --e-global-typography-cccaf16-letter-spacing: 0.2px;
+  --e-global-typography-397fa8c-font-family: "Inter";
+  --e-global-typography-397fa8c-font-size: 16px;
+  --e-global-typography-397fa8c-font-weight: 500;
+  --e-global-typography-397fa8c-text-transform: none;
+  --e-global-typography-397fa8c-font-style: normal;
+  --e-global-typography-397fa8c-text-decoration: none;
+  --e-global-typography-397fa8c-line-height: 1.5em;
+  --e-global-typography-0f87df9-font-family: "Inter";
+  --e-global-typography-0f87df9-font-size: 14px;
+  --e-global-typography-0f87df9-font-weight: 400;
+  --e-global-typography-0f87df9-text-transform: none;
+  --e-global-typography-0f87df9-font-style: normal;
+  --e-global-typography-0f87df9-text-decoration: none;
+  --e-global-typography-0f87df9-line-height: 1.5em;
+  --e-global-typography-40c14ec-font-family: "Outfit";
+  --e-global-typography-40c14ec-font-size: 13px;
+  --e-global-typography-40c14ec-font-weight: 700;
+  --e-global-typography-40c14ec-text-transform: uppercase;
+  --e-global-typography-40c14ec-line-height: 1.4em;
+  --e-global-typography-40c14ec-letter-spacing: 0.2px;
+  --e-global-typography-fd9d36b-font-family: "Outfit";
+  --e-global-typography-fd9d36b-font-size: 20px;
+  --e-global-typography-fd9d36b-font-weight: 700;
+  --e-global-typography-fd9d36b-line-height: 1em;
+  --e-global-typography-fd9d36b-letter-spacing: 0.4px;
+  --e-global-typography-f01aa4c-font-family: "Outfit";
+  --e-global-typography-f01aa4c-font-size: 100px;
+  --e-global-typography-f01aa4c-font-weight: 700;
+  --e-global-typography-f01aa4c-line-height: 1.2em;
+  --e-global-typography-2724a77-font-family: "Outfit";
+  --e-global-typography-2724a77-font-size: 16px;
+  --e-global-typography-2724a77-font-weight: 700;
+  --e-global-typography-2724a77-text-transform: uppercase;
+  --e-global-typography-2724a77-text-decoration: underline;
+  --e-global-typography-2724a77-line-height: 1em;
+  --e-global-typography-2724a77-letter-spacing: 0.4px;
+  --e-global-typography-1614725-font-family: "Inter";
+  --e-global-typography-1614725-font-size: 15px;
+  --e-global-typography-1614725-font-weight: 500;
+  --e-global-typography-1614725-text-transform: none;
+  --e-global-typography-1614725-font-style: normal;
+  --e-global-typography-1614725-line-height: 1.3em;
+  --e-global-typography-1614725-letter-spacing: 0px;
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  text-transform: var(--e-global-typography-text-text-transform);
+  font-style: var(--e-global-typography-text-font-style);
+  line-height: var(--e-global-typography-text-line-height);
+  background-color: var(--e-global-color-685488a);
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1c3f95;
+  border-radius: 10px;
 }
