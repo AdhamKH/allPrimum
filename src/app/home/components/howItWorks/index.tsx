@@ -59,8 +59,8 @@ const HowItWorks = () => {
   return (
     <section className={styles.howItWorksSection}>
       <div className={styles.header}>
-        <h3>Our Process</h3>
-        <h2>How It Works?</h2>
+        {/* <h3>Our Process</h3> */}
+        <h2>service we provide</h2>
         <p>
           Sed posuere consectetur est at lobortis. Donec id elit non mi porta
           gravida at eget metus.
@@ -69,7 +69,7 @@ const HowItWorks = () => {
       <div className={styles.stepsGrid}>
         {steps.map((step, index) => (
           <div key={index} className={styles.stepCard}>
-            <span className={styles.stepNumber}>{step.step}</span>
+            {/* <span className={styles.stepNumber}>{step.step}</span> */}
             <div className={styles.stepHeader}>
               <Image
                 src={step.icon}
