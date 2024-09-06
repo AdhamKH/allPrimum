@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <div className={styles.textSection}>
           <div className={styles.titleSection}>
             <span className={styles.badge}>
-              Why Choose All Premium Contractors
+              Why Choose All All Premium Solar
             </span>
             <h2>
               We have a reliable work crew specializing in outdoor and indoor
@@ -68,7 +68,9 @@ const WhyChooseUs = () => {
               </div>
             </div>
           </div>
-          <button className={styles.bookingButton}>SCHEDULE A BOOKING</button>
+          <button className={styles.bookingButton}>
+            Submit your job / BYLDr Partner
+          </button>
         </div>
         <div className={styles.imageSection}>
           <div className={styles.firstRow}>
@@ -76,8 +78,8 @@ const WhyChooseUs = () => {
           </div>
           <div className={styles.secondRow}>
             <div className={styles.overlayBox}>
-              <h4>600+</h4>
-              <p>Projects Completed</p>
+              <h4>4000 +</h4>
+              <p>Jobs installed</p>
             </div>
             <div className={styles.imgContainer}>
               <Image

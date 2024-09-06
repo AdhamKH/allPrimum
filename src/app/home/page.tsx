@@ -11,14 +11,14 @@ import AboutUsSection from "./components/aboutUs";
 const page = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <HeroSlider />
       <WhyChooseUs />
       <Services />
       <RecentProjects />
       <HowItWorks />
       <AboutUsSection />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

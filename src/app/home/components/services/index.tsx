@@ -79,7 +79,9 @@ export default function Services() {
             ))}
           </div>
           <div className={styles.actions}>
-            <button className={styles.scheduleBtn}>Schedule a Booking</button>
+            <button className={styles.scheduleBtn}>
+              Submit your job / BYLDr Partner
+            </button>
             <p className={styles.contactInfo}>
               <span role="img" aria-label="phone">
                 📞

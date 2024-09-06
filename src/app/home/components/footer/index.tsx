@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./style.module.scss";
 import Image from "next/image";
-import logo from "../../../../assets/logo2.png";
+import logo from "../../../../assets/logo_white_transparent_background.png";
 import workerImg from "../../../../assets/footer/1.jpg";
 const Footer = () => {
   return (
@@ -25,10 +25,10 @@ const Footer = () => {
                 USA
               </li>
               <li>
-                <i className="fas fa-phone"></i>+1 123 456 7890
+                <i className="fas fa-phone"></i>+1 2135347694
               </li>
               <li>
-                <i className="fas fa-envelope"></i>info@example.com
+                <i className="fas fa-envelope"></i>Support@Allpremiumhome.com
               </li>
             </ul>
             <h4>Open Hours:</h4>

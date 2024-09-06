@@ -65,9 +65,9 @@ const HeroSlider = () => {
                 </p>
                 <div className={styles.cta}>
                   <button className={styles.bookingButton}>
-                    SCHEDULE A BOOKING
+                    Submit your job / BYLDr Partner
                   </button>
-                  <span>📞 +1 123 456 7890</span>
+                  <span>📞 +1 2135347694</span>
                 </div>
               </div>
               <Image
@@ -103,9 +103,9 @@ const HeroSlider = () => {
                 </p>
                 <div className={styles.cta}>
                   <button className={styles.bookingButton}>
-                    SCHEDULE A BOOKING
+                    Submit your job / BYLDr Partner
                   </button>
-                  <span>📞 +1 123 456 7890</span>
+                  <span>📞 +1 2135347694</span>
                 </div>
               </div>
               <Image
@@ -141,9 +141,9 @@ const HeroSlider = () => {
                 </p>
                 <div className={styles.cta}>
                   <button className={styles.bookingButton}>
-                    SCHEDULE A BOOKING
+                    Submit your job / BYLDr Partner
                   </button>
-                  <span>📞 +1 123 456 7890</span>
+                  <span>📞 +1 2135347694</span>
                 </div>
               </div>
               <Image
