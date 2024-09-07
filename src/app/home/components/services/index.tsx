@@ -6,6 +6,7 @@ import residential from "../../../../assets/services/DALL·E 2024-09-02 10.40.17
 import Image from "next/image";
 import SlidingPane from "@/conponents/slidingPane";
 import { useState } from "react";
+import SelectForm from "../selectForm";
 
 const servicesData = [
   {
@@ -41,6 +42,9 @@ export default function Services() {
     setSelected(id);
     setOpen(!open);
   };
+  const [openModal, setOpenModal] = useState(false);
+  const handleOpen = () => setOpenModal(true);
+  const handleClose = () => setOpenModal(false);
   return (
     <>
       <section className={styles.servicesSection}>
@@ -79,7 +83,7 @@ export default function Services() {
             ))}
           </div>
           <div className={styles.actions}>
-            <button className={styles.scheduleBtn}>
+            <button className={styles.scheduleBtn} onClick={handleOpen}>
               Submit your job / BYLDr Partner
             </button>
             <p className={styles.contactInfo}>
@@ -97,6 +101,7 @@ export default function Services() {
           selected={selected}
         />
       </section>
+      <SelectForm open={openModal} handleClose={handleClose} />
     </>
   );
 }

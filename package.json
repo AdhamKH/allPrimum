@@ -14,6 +14,7 @@
     "@hookform/error-message": "^2.0.1",
     "@hookform/resolvers": "^3.9.0",
     "@mui/material": "^6.0.2",
+    "@react-spring/web": "^9.7.4",
     "axios": "^1.7.7",
     "framer-motion": "^11.5.4",
     "next": "14.2.6",
@@ -23,6 +24,7 @@
     "react-hook-form": "^7.53.0",
     "react-toastify": "^10.0.5",
     "sass": "^1.77.8",
+    "sweetalert2": "^11.13.2",
     "swiper": "^11.1.10",
     "yup": "^1.4.0"
   },
