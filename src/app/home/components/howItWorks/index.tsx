@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./style.module.scss";
 import Image from "next/image";
 import companyLogo from "../../../../assets/howitWorks/CompanyLogo.png";
-import icon1 from "../../../../assets/howitWorks/icon1.png";
+import icon1 from "../../../../assets/howitWorks/icon_white.png";
 
 const steps = [
   {
@@ -68,7 +68,7 @@ const HowItWorks = () => {
       </div>
       <div className={styles.stepsGrid}>
         {steps.map((step, index) => (
-          <div key={index} className={styles.stepCard}>
+          <div key={index} className={`${styles.stepCard} bg-light`}>
             {/* <span className={styles.stepNumber}>{step.step}</span> */}
             <div className={styles.stepHeader}>
               <Image
@@ -77,8 +77,12 @@ const HowItWorks = () => {
                 className={styles.stepIcon}
               />
             </div>
-            <h3 className={styles.stepTitle}>{step.title}</h3>
-            <p className={styles.stepDescription}>{step.description}</p>
+            <h3 className={`${styles.stepTitle} text-text-primary`}>
+              {step.title}
+            </h3>
+            <p className={`${styles.stepDescription} text-text-primary`}>
+              {step.description}
+            </p>
           </div>
         ))}
       </div>

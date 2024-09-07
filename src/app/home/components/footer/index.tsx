@@ -3,9 +3,11 @@ import styles from "./style.module.scss";
 import Image from "next/image";
 import logo from "../../../../assets/logo_white_transparent_background.png";
 import workerImg from "../../../../assets/footer/1.jpg";
+import { FaEnvelopeOpenText } from "react-icons/fa";
+
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} bg-primary`}>
       <div className={styles.content}>
         <div className={styles.section}>
           <div className={styles.column}>
@@ -49,8 +51,8 @@ const Footer = () => {
             </p>
             <form className={styles.form}>
               <input type="email" placeholder="Email address" />
-              <button type="submit">
-                <i className="fas fa-envelope-open-text"></i>
+              <button type="submit" className="bg-white ">
+                <FaEnvelopeOpenText className="text-primary text-lg" />
               </button>
             </form>
             <div className={styles.socialIcons}>
@@ -71,7 +73,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
+          {/* 
           <div className={styles.column}>
             <h4>Instagram:</h4>
             <div className={styles.gallery}>
@@ -82,7 +84,7 @@ const Footer = () => {
               <Image src={workerImg} alt="Gallery Image 5" />
               <Image src={workerImg} alt="Gallery Image 6" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

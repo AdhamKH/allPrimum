@@ -15,9 +15,12 @@ const config: Config = {
       },
     },
     colors: {
-      primary: "#96b93b",
+      primary: "#95bb3d",
+      secondary: "#96b93c",
+      light: "#a0c250",
+      white: "white",
       text: {
-        secondary: "white",
+        primary: "white",
       },
     },
   },

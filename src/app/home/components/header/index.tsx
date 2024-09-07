@@ -15,22 +15,35 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.topBar}>
           <div className={styles.contactInfo}>
-            <span className={styles.phone}>📞 +1 (123) 234 5678</span>
-            <span className={styles.email}>✉️ Support@Allpremiumhome.com</span>
+            <span className={`${styles.phone} text-primary`}>
+              📞 +1 (123) 234 5678
+            </span>
+            <span className={`${styles.email} text-primary`}>
+              ✉️ Support@Allpremiumhome.com
+            </span>
           </div>
           <div className={styles.logo}>
             <Link href={"/"}>
               <Image src={logo} alt="logo"></Image>
             </Link>
           </div>
-          <div className={styles.booking}>
-            <button className={styles.bookingButton} onClick={handleOpen}>
-              Submit your job / BYLDr Partner
+          <div className={`${styles.booking} flex gap-2 `}>
+            <button
+              className={`${styles.bookingButton}  bg-primary`}
+              // onClick={handleOpen}
+            >
+              BYLDr Partner
+            </button>
+            <button
+              className={`${styles.bookingButton}  bg-primary`}
+              // onClick={handleOpen}
+            >
+              Submit your job
             </button>
           </div>
         </div>
         <div className={styles.navBarContainer}>
-          <nav className={styles.navBar}>
+          <nav className={`${styles.navBar} bg-primary`}>
             <ul>
               <li>
                 <Link href="/">HOME</Link>

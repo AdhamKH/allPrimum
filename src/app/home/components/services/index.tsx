@@ -52,14 +52,11 @@ export default function Services() {
           <div className={styles.servicesHeader}>
             <div className={styles.first}>
               <div>
-                <div className={styles.squareBlue}></div> <p>who we are</p>
+                <div className={`${styles.squareBlue} bg-primary`}></div>{" "}
+                <p>who we are</p>
               </div>
               <h2>Are you searching for different states</h2>
             </div>
-            {/* <p>
-            Sed posuere consectetur est at lobortis. Donec id elit non mi porta
-            gravida at eget metus.
-          </p> */}
           </div>
           <div className={styles.servicesGrid}>
             {servicesData.map((service, index) => (
@@ -74,7 +71,7 @@ export default function Services() {
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <button
-                  className={styles.viewDetailsBtn}
+                  className={`${styles.viewDetailsBtn} bg-primary`}
                   onClick={() => handleSelect(service.id)}
                 >
                   View Details
@@ -83,15 +80,24 @@ export default function Services() {
             ))}
           </div>
           <div className={styles.actions}>
-            <button className={styles.scheduleBtn} onClick={handleOpen}>
-              Submit your job / BYLDr Partner
+            <button
+              className={`${styles.scheduleBtn} bg-primary`}
+              onClick={handleOpen}
+            >
+              BYLDr Partner
             </button>
-            <p className={styles.contactInfo}>
+            <button
+              className={`${styles.scheduleBtn} bg-primary`}
+              onClick={handleOpen}
+            >
+              Submit your job
+            </button>
+            {/* <p className={styles.contactInfo}>
               <span role="img" aria-label="phone">
                 📞
               </span>{" "}
               +1123 456 7890
-            </p>
+            </p> */}
           </div>
         </div>
         <SlidingPane

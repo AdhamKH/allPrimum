@@ -15,7 +15,9 @@ const WhyChooseUs = () => {
         <div className={styles.container}>
           <div className={styles.textSection}>
             <div className={styles.titleSection}>
-              <span className={styles.badge}>
+              <span
+                className={`${styles.badge} bg-primary text-text-primary p-2`}
+              >
                 Why Choose All All Premium Solar
               </span>
               <h2>
@@ -26,7 +28,7 @@ const WhyChooseUs = () => {
             </div>
             <div className={styles.features}>
               <div className={styles.feature}>
-                <div className={styles.iconWrapper}>
+                <div className={`${styles.iconWrapper} bg-secondary`}>
                   {/* <Image src={smallImg} alt="Experience" /> */}
                 </div>
                 <div>
@@ -43,7 +45,7 @@ const WhyChooseUs = () => {
                 </div>
               </div>
               <div className={styles.feature}>
-                <div className={styles.iconWrapper}>
+                <div className={`${styles.iconWrapper} bg-secondary`}>
                   {/* <Image src={bigImg} alt="24/7 Services" /> */}
                 </div>
                 <div>
@@ -60,7 +62,7 @@ const WhyChooseUs = () => {
                 </div>
               </div>
               <div className={styles.feature}>
-                <div className={styles.iconWrapper}>
+                <div className={`${styles.iconWrapper} bg-secondary`}>
                   {/* <img src="/verified-icon.png" alt="Verified Professionals" /> */}
                 </div>
                 <div>
@@ -76,16 +78,27 @@ const WhyChooseUs = () => {
                 </div>
               </div>
             </div>
-            <button className={styles.bookingButton} onClick={handleOpen}>
-              Submit your job / BYLDr Partner
-            </button>
+            <div className="flex gap-2 items-center">
+              <button
+                className={`${styles.bookingButton} bg-primary`}
+                // onClick={handleOpen}
+              >
+                BYLDr Partner
+              </button>
+              <button
+                className={`${styles.bookingButton} bg-primary`}
+                // onClick={handleOpen}
+              >
+                Submit your job
+              </button>
+            </div>
           </div>
           <div className={styles.imageSection}>
             <div className={styles.firstRow}>
               <Image src={bigImg} alt="Handyman" className={styles.mainImage} />
             </div>
             <div className={styles.secondRow}>
-              <div className={styles.overlayBox}>
+              <div className={`${styles.overlayBox} bg-primary`}>
                 <h4>4000 +</h4>
                 <p>Jobs installed</p>
               </div>

@@ -15,29 +15,31 @@ const projectsData = [
   {
     image: img1,
     alt: "Woodwork Project",
-    title: "Hardwood Flooring",
+    title: "Auto zone",
     category: "Commercial",
   },
   {
     image: img2,
     alt: "Assembly Project",
-    title: "Assembly",
-    category: "Furniture",
+    title: "Auto zone",
+    category: "Commercial",
   },
   {
     image: img3,
     alt: "Lighting Project",
-    title: "Lighting Installation",
-    category: "Residential",
+    title: "Auto zone",
+    category: "Commercial",
   },
 ];
 
 export default function RecentProjects() {
   return (
-    <section className={styles.recentProjectsSection}>
+    <section className={`${styles.recentProjectsSection} bg-secondary`}>
       <div className={styles.header}>
-        <h3>Recent Projects</h3>
-        <h2>Inspiration for your next project</h2>
+        <h3 className="text-text-primary text-2xl">Recent Projects</h3>
+        <h2 className="text-text-primary text-xl p-4 font-bold">
+          Inspiration for your next project
+        </h2>
         {/* <div className={styles.icon}></div> */}
       </div>
       <div className={styles.projectsGrid}>
@@ -55,7 +57,9 @@ export default function RecentProjects() {
           </div>
         ))}
       </div>
-      <button className={styles.viewAllBtn}>View All Projects</button>
+      <button className={`${styles.viewAllBtn} text-primary`}>
+        View All Projects
+      </button>
     </section>
   );
 }

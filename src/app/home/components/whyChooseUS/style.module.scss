@@ -1,7 +1,8 @@
 // components/WhyChooseUs.module.scss
 
 .whyChooseUs {
-  padding: 50px 20px;
+  padding: 70px 0 200px 20px;
+
   background-color: #f9f9f9;
   width: 100%;
   .container {
@@ -28,9 +29,9 @@
   .titleSection {
     margin-bottom: 30px;
     .badge {
-      background-color: #d4a60e;
-      color: #003366;
-      padding: 5px 10px;
+      // background-color: #d4a60e;
+      // color: #003366;
+      // padding: 5px 10px;
       font-weight: bold;
       border-radius: 5px;
       display: inline-block;
@@ -62,7 +63,7 @@
       margin-bottom: 20px;
 
       .iconWrapper {
-        background-color: #003366;
+        // background-color: #003366;
         padding: 15px;
         border-radius: 5px;
         margin-right: 20px;
@@ -89,7 +90,7 @@
   }
 
   .bookingButton {
-    background-color: #d4a60e;
+    // background-color: #d4a60e;
     color: #ffffff;
     border: none;
     padding: 15px 30px;
@@ -118,7 +119,7 @@
     }
 
     .overlayBox {
-      background-color: #003366;
+      // background-color: #003366;
       color: #ffffff;
       padding: 48px 24px 48px 24px;
       width: 100%;
@@ -166,5 +167,9 @@
         margin-top: 20px;
       }
     }
+  }
+  @media (max-width: 767px) {
+    padding: 0;
+    padding: 3rem 2rem;
   }
 }

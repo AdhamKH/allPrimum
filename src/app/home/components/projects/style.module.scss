@@ -1,6 +1,6 @@
 /* components/RecentProjects.module.css */
 .recentProjectsSection {
-  background-color: #23478d;
+  // background-color: #23478d;
   text-align: center;
   padding: 60px 20px;
   color: #fff;
@@ -11,17 +11,17 @@
 }
 
 .header h3 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #f8c10e;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  // font-size: 18px;
+  // font-weight: bold;
+  // color: #f8c10e;
+  // text-transform: uppercase;
+  // letter-spacing: 1px;
 }
 
 .header h2 {
-  font-size: 32px;
-  margin: 10px 0;
-  font-weight: bold;
+  // font-size: 32px;
+  // margin: 10px 0;
+  // font-weight: bold;
 }
 
 .header .icon {
@@ -44,6 +44,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 .projectCard {
@@ -95,7 +99,7 @@
 
 .viewAllBtn {
   background-color: #fff;
-  color: #23478d;
+  // color: #23478d;
   border: none;
   padding: 12px 30px;
   border-radius: 4px;
