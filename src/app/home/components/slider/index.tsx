@@ -52,23 +52,16 @@ const HeroSlider = () => {
                     </div>
                   </div>
                   <h1>
-                    Our
+                    All of your licensed contractors under one roof with
                     <span className={styles.spanWrapper}>
-                      <span>handyman</span>
-                      {/* <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 500 150"
-                      preserveAspectRatio="none"
-                    >
-                      <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>{" "}
-                    </svg> */}
+                      <span>All Premium!</span>
                     </span>
-                    services are all under one roof.
                   </h1>
+                  <p>Work smarter, not harder!</p>
                   <p>
-                    It’s your home. Not just any handyman will do. We’re not
-                    happy until the work’s done right — backed by a one-year
-                    guarantee.
+                    Sliding words: Survey, Engineering, Permits, Scheduling,
+                    Procurement, Installation, Interconnection. We take your
+                    project from zero to hero! Stay in business!
                   </p>
                   <div className={styles.cta}>
                     <button
@@ -106,11 +99,16 @@ const HeroSlider = () => {
                       <span>TRUSTWORTHY</span>
                     </div>
                   </div>
-                  <h1>Our handyman services are all under one roof.</h1>
+                  <h1>
+                    All of your licensed contractors under one roof with
+                    <span className={styles.spanWrapper}>
+                      <span>All Premium!</span>
+                    </span>
+                  </h1>{" "}
+                  <p> Have us manage your installs.</p>
                   <p>
-                    It’s your home. Not just any handyman will do. We’re not
-                    happy until the work’s done right — backed by a one-year
-                    guarantee.
+                    We are your all in one house Project Management and
+                    Construction Management nationwide!!
                   </p>
                   <div className={styles.cta}>
                     <button
@@ -148,12 +146,17 @@ const HeroSlider = () => {
                       <span>TRUSTWORTHY</span>
                     </div>
                   </div>
-                  <h1>Our handyman services are all under one roof.</h1>
+                  <h1>
+                    All of your licensed contractors under one roof with
+                    <span className={styles.spanWrapper}>
+                      <span>All Premium!</span>
+                    </span>
+                  </h1>
                   <p>
-                    It’s your home. Not just any handyman will do. We’re not
-                    happy until the work’s done right — backed by a one-year
-                    guarantee.
+                    Get organized! Get professional! Go nationwide with All
+                    Premium.
                   </p>
+                  <p>For all of your Residential and Commercial projects.</p>
                   <div className={styles.cta}>
                     <button
                       className={styles.bookingButton}
