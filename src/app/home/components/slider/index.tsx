@@ -10,18 +10,21 @@ import bg3 from "../../../../assets/services/WhatsApp Image 2024-08-28 at 10.43.
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import { motion } from "framer-motion";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
 import { useState } from "react";
 import SelectForm from "../selectForm";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 
 const HeroSlider = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const text = "Framer Motion is a really cool tool".split(" ");
+
   return (
-    <>
+    <div className={styles.sectionContainer}>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
@@ -56,13 +59,35 @@ const HeroSlider = () => {
                       <span>Nationwide</span>
                     </div>
                   </div>
+                  <div>
+                    <TypeAnimation
+                      sequence={["Work smarter, not harder!"]}
+                      wrapper="p"
+                      speed={50}
+                      repeat={1}
+                      className={styles.pAnimate}
+                    />
+                  </div>
                   <h1>
                     All of your licensed contractors under one roof with
                     <span className={`${styles.spanWrapper}`}>
                       <span>All Premium!</span>
                     </span>
                   </h1>
-                  <p>Work smarter, not harder!</p>
+                  <div className={styles.badges}>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Process</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Management</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Same Price</span>
+                    </div>
+                  </div>
                   <p>
                     Sliding words: Survey, Engineering, Permits, Scheduling,
                     Procurement, Installation, Interconnection.
@@ -114,13 +139,36 @@ const HeroSlider = () => {
                       <div className={`${styles.square} bg-primary`}></div>{" "}
                       <span>TRUSTWORTHY</span>
                     </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Nationwide</span>
+                    </div>
                   </div>
                   <h1>
                     All of your licensed contractors under one roof with
                     <span className={`${styles.spanWrapper}`}>
                       <span>All Premium!</span>
                     </span>
-                  </h1>{" "}
+                  </h1>
+                  <div className={styles.badges}>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Process</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Management</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Same Price</span>
+                    </div>
+                  </div>
+                  <p>We manage all of your solar installs.</p>
+                  <p>
+                    Simplified management for consistent, reliable results,
+                    every time!
+                  </p>
                   <p> Have us manage your installs.</p>
                   <p>
                     We are your all in one house Project Management and
@@ -170,6 +218,10 @@ const HeroSlider = () => {
                       <div className={`${styles.square} bg-primary`}></div>{" "}
                       <span>TRUSTWORTHY</span>
                     </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Nationwide</span>
+                    </div>
                   </div>
                   <h1>
                     All of your licensed contractors under one roof with
@@ -177,6 +229,20 @@ const HeroSlider = () => {
                       <span>All Premium!</span>
                     </span>
                   </h1>
+                  <div className={styles.badges}>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Process</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Management</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Same Price</span>
+                    </div>
+                  </div>
                   <p>
                     Get organized! Get professional! Go nationwide with All
                     Premium.
@@ -214,7 +280,7 @@ const HeroSlider = () => {
         </SwiperSlide>
       </Swiper>
       <SelectForm open={open} handleClose={handleClose} />
-    </>
+    </div>
   );
 };
 

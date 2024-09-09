@@ -1,5 +1,5 @@
 export const mainUrl = "https://contractors.boxbyld.tech/api/v1";
-export let companyId = "4";
+export let companyId = "6";
 
 export const fetcHomehData = async () => {
   const res = await fetch(`${mainUrl}/companies/${companyId}`, {

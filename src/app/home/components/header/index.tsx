@@ -6,10 +6,14 @@ import logo from "../../../../assets/logo-removebg-preview_prev_ui.png";
 import Link from "next/link";
 import SelectForm from "../selectForm";
 import { useState } from "react";
+import SlidingPane from "../slidingPane";
 const Header = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const handleChange = () => {
+    setOpen(!open);
+  };
   return (
     <>
       <header className={styles.header}>
@@ -74,9 +78,41 @@ const Header = () => {
               </li>
             </ul>
           </nav>
+          <div className={styles.slidingNav}>
+            <nav>
+              <ul>
+                <li>
+                  <Link href={`/home/`}>
+                    <Image
+                      src={logo}
+                      width={100}
+                      height={100}
+                      alt="logo"
+                    ></Image>
+                  </Link>
+                </li>
+                <li>
+                  <button onClick={handleChange}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M3.50003 17.6344V16.1345H20.5V17.6344H3.50003ZM3.50003 12.7498V11.2499H20.5V12.7498H3.50003ZM3.50003 7.86521V6.36523H20.5V7.86521H3.50003Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
-      <SelectForm open={open} handleClose={handleClose} />
+      <SlidingPane open={open} setOpen={setOpen} />
     </>
   );
 };
