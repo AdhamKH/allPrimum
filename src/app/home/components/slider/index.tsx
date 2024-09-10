@@ -45,107 +45,34 @@ const HeroSlider = () => {
             <div className={styles.heroSlide}>
               <div className={styles.overlay}>
                 <div className={styles.content}>
-                  <div className={styles.badges}>
-                    <div>
-                      <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>PROFESSIONAL</span>
-                    </div>
-                    <div>
-                      <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>TRUSTWORTHY</span>
-                    </div>
-                    <div>
-                      <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>Nationwide</span>
-                    </div>
-                  </div>
                   <div>
                     <TypeAnimation
                       sequence={["Work smarter, not harder!"]}
                       wrapper="p"
                       speed={50}
                       repeat={1}
-                      className={styles.pAnimate}
+                      className={`${styles.pAnimate} text-3xl`}
                     />
                   </div>
-                  <h1>
-                    All of your licensed contractors under one roof with
-                    <span className={`${styles.spanWrapper}`}>
-                      <span>All Premium!</span>
-                    </span>
-                  </h1>
                   <div className={styles.badges}>
                     <div>
                       <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>One Process</span>
+                      <span>Residential</span>
                     </div>
                     <div>
                       <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>One Management</span>
-                    </div>
-                    <div>
-                      <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>Same Price</span>
-                    </div>
-                  </div>
-                  <p>
-                    Sliding words: Survey, Engineering, Permits, Scheduling,
-                    Procurement, Installation, Interconnection.
-                  </p>
-                  <p>
-                    We take your project from zero to hero! Stay in business!
-                  </p>
-                  <div className={styles.cta}>
-                    {/* <Link href={"/submitAJob"}> */}
-                    <button
-                      className={`${styles.bookingButton} bg-primary`}
-                      // onClick={handleOpen}
-                    >
-                      BYLDr Partner
-                    </button>
-                    {/* </Link> */}
-                    <Link href={"/submitAJob"}>
-                      <button
-                        className={`${styles.bookingButton} bg-primary`}
-                        // onClick={handleOpen}
-                      >
-                        Submit your job
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-                <Image
-                  src={bg1}
-                  fill
-                  className={styles.imgAnimation}
-                  alt="background"
-                  style={{ zIndex: "-1" }}
-                ></Image>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.contentContainer}>
-            <div className={styles.heroSlide}>
-              <div className={styles.overlay}>
-                <div className={styles.content}>
-                  <div className={styles.badges}>
-                    <div>
-                      <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>PROFESSIONAL</span>
-                    </div>
-                    <div>
-                      <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>TRUSTWORTHY</span>
+                      <span>Commercial</span>
                     </div>
                     <div>
                       <div className={`${styles.square} bg-primary`}></div>{" "}
                       <span>Nationwide</span>
                     </div>
                   </div>
+
                   <h1>
-                    All of your licensed contractors under one roof with
+                    All of your{" "}
+                    <span className="text-primary"> licensed contractors</span>{" "}
+                    under one roof with
                     <span className={`${styles.spanWrapper}`}>
                       <span>All Premium!</span>
                     </span>
@@ -164,25 +91,19 @@ const HeroSlider = () => {
                       <span>Same Price</span>
                     </div>
                   </div>
-                  <p>We manage all of your solar installs.</p>
-                  <p>
+                  <p className="text-3xl font-serif">
                     Simplified management for consistent, reliable results,
                     every time!
                   </p>
-                  <p> Have us manage your installs.</p>
-                  <p>
-                    We are your all in one house Project Management and
-                    Construction Management nationwide!!
-                  </p>
+                  <p>We manage all of your solar installs.</p>
+
                   <div className={styles.cta}>
-                    {/* <Link href={"/submitAJob"}> */}
                     <button
                       className={`${styles.bookingButton} bg-primary`}
                       // onClick={handleOpen}
                     >
                       BYLDr Partner
                     </button>
-                    {/* </Link> */}
                     <Link href={"/submitAJob"}>
                       <button
                         className={`${styles.bookingButton} bg-primary`}
@@ -209,22 +130,34 @@ const HeroSlider = () => {
             <div className={styles.heroSlide}>
               <div className={styles.overlay}>
                 <div className={styles.content}>
+                  <div>
+                    <TypeAnimation
+                      sequence={["Work smarter, not harder!"]}
+                      wrapper="p"
+                      speed={50}
+                      repeat={1}
+                      className={`${styles.pAnimate} text-3xl`}
+                    />
+                  </div>
                   <div className={styles.badges}>
                     <div>
                       <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>PROFESSIONAL</span>
+                      <span>Residential</span>
                     </div>
                     <div>
                       <div className={`${styles.square} bg-primary`}></div>{" "}
-                      <span>TRUSTWORTHY</span>
+                      <span>Commercial</span>
                     </div>
                     <div>
                       <div className={`${styles.square} bg-primary`}></div>{" "}
                       <span>Nationwide</span>
                     </div>
                   </div>
+
                   <h1>
-                    All of your licensed contractors under one roof with
+                    All of your{" "}
+                    <span className="text-primary"> licensed contractors</span>{" "}
+                    under one roof with
                     <span className={`${styles.spanWrapper}`}>
                       <span>All Premium!</span>
                     </span>
@@ -243,20 +176,19 @@ const HeroSlider = () => {
                       <span>Same Price</span>
                     </div>
                   </div>
-                  <p>
-                    Get organized! Get professional! Go nationwide with All
-                    Premium.
+                  <p className="text-3xl font-serif">
+                    Simplified management for consistent, reliable results,
+                    every time!
                   </p>
-                  <p>For all of your Residential and Commercial projects.</p>
+                  <p>We manage all of your solar installs.</p>
+
                   <div className={styles.cta}>
-                    {/* <Link href={"/submitAJob"}> */}
                     <button
                       className={`${styles.bookingButton} bg-primary`}
                       // onClick={handleOpen}
                     >
                       BYLDr Partner
                     </button>
-                    {/* </Link> */}
                     <Link href={"/submitAJob"}>
                       <button
                         className={`${styles.bookingButton} bg-primary`}
@@ -268,7 +200,92 @@ const HeroSlider = () => {
                   </div>
                 </div>
                 <Image
-                  src={bg1}
+                  src={bg2}
+                  fill
+                  className={styles.imgAnimation}
+                  alt="background"
+                  style={{ zIndex: "-1" }}
+                ></Image>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.contentContainer}>
+            <div className={styles.heroSlide}>
+              <div className={styles.overlay}>
+                <div className={styles.content}>
+                  <div>
+                    <TypeAnimation
+                      sequence={["Work smarter, not harder!"]}
+                      wrapper="p"
+                      speed={50}
+                      repeat={1}
+                      className={`${styles.pAnimate} text-3xl`}
+                    />
+                  </div>
+                  <div className={styles.badges}>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Residential</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Commercial</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Nationwide</span>
+                    </div>
+                  </div>
+
+                  <h1>
+                    All of your{" "}
+                    <span className="text-primary"> licensed contractors</span>{" "}
+                    under one roof with
+                    <span className={`${styles.spanWrapper}`}>
+                      <span>All Premium!</span>
+                    </span>
+                  </h1>
+                  <div className={styles.badges}>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Process</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>One Management</span>
+                    </div>
+                    <div>
+                      <div className={`${styles.square} bg-primary`}></div>{" "}
+                      <span>Same Price</span>
+                    </div>
+                  </div>
+                  <p className="text-3xl font-serif">
+                    Simplified management for consistent, reliable results,
+                    every time!
+                  </p>
+                  <p>We manage all of your solar installs.</p>
+
+                  <div className={styles.cta}>
+                    <button
+                      className={`${styles.bookingButton} bg-primary`}
+                      // onClick={handleOpen}
+                    >
+                      BYLDr Partner
+                    </button>
+                    <Link href={"/submitAJob"}>
+                      <button
+                        className={`${styles.bookingButton} bg-primary`}
+                        // onClick={handleOpen}
+                      >
+                        Submit your job
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+                <Image
+                  src={bg3}
                   fill
                   className={styles.imgAnimation}
                   alt="background"
