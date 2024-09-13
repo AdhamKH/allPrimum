@@ -34,21 +34,29 @@ const steps = [
     icon: icon1,
   },
   {
+    step: "STEP 6",
+    title: "Procurement ",
+    description:
+      "We assist in securing the necessary products for each solar job and thoroughly review the BOM list to ensure all items are accurate and aligned with project requirements.",
+    icon: icon1,
+  },
+  {
     step: "STEP 5",
     title: "Scheduling",
     description:
       "Coordination with customers, vendors, and your team to ensure a smooth workflow.",
     icon: icon1,
   },
+
   {
-    step: "STEP 6",
+    step: "STEP 7",
     title: "Installation",
     description:
       "Expertly managed installations by our network of trusted contractors.",
     icon: icon1,
   },
   {
-    step: "STEP 7",
+    step: "STEP 8",
     title: "Interconnection",
     description:
       "Ensuring your solar systems are correctly integrated and operational.",

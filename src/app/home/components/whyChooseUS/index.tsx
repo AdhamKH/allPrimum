@@ -1,7 +1,7 @@
 "use client";
 import styles from "./style.module.scss";
-import smallImg from "../../../../assets/whyChooseUs/small.jpg";
-import bigImg from "../../../../assets/whyChooseUs/big.jpg";
+import smallImg from "../../../../assets/whyChooseUs/WhatsApp Image 2024-09-11 at 9.47.34 PM.jpeg";
+import bigImg from "../../../../assets/whyChooseUs/WhatsApp Image 2024-09-11 at 9.46.33 PM.jpeg";
 import Image from "next/image";
 import { useState } from "react";
 import SelectForm from "../selectForm";
@@ -34,8 +34,10 @@ const WhyChooseUs = () => {
                 <div>
                   <h3>Hassle-Free Contractor Management</h3>
                   <p>
-                    <span> Efficient Network</span>: We connect you with
-                    pre-approved, reliable contractors.
+                    <span> Efficient Network</span>: Instead of you managing
+                    your many installers attempting the same streamlined
+                    business, we do it for you through our network of approved
+                    and verified licensed contractors.
                   </p>
                   <p>
                     <span> Seamless Communication</span>: Acting as the liaison
@@ -99,7 +101,7 @@ const WhyChooseUs = () => {
             </div>
             <div className={styles.secondRow}>
               <div className={`${styles.overlayBox} bg-primary`}>
-                <h4>4000 +</h4>
+                <h4>8000 +</h4>
                 <p>Jobs installed</p>
               </div>
               <div className={styles.imgContainer}>

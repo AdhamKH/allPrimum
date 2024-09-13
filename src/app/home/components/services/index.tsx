@@ -13,7 +13,7 @@ const servicesData = [
     id: 1,
     title: "Project management ",
     description:
-      "specializing in solar systems, overseeing the design, installation, and maintenance of solar energy projects, ensuring seamless execution and maximizing renewable energy efficiency.",
+      "Our project management team ensures the successful execution of every job from the point of sale to final interconnection approval. Our dedicated project managers handle every aspect, including intake, customer, surveyor and installer scheduling, product procurement, solar and battery installations, and the interconnection process.",
     image: img1,
   },
   {
@@ -30,7 +30,7 @@ const servicesData = [
 
     title: "construction management",
     description:
-      "Construction management involves planning, coordinating, and overseeing construction projects from inception to completion, ensuring they are delivered on time, within budget, and to the required quality standards.",
+      "With our esteemed operational staff, our entire team is dedicated to enhancing your experience. We prioritize communication and work diligently to streamline the entire process, ensuring smooth collaboration between all vendors and customers involved, right through to job completion.",
     image: img1,
   },
 ];
