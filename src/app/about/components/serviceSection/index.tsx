@@ -17,28 +17,121 @@ const ServiceSection = () => {
                   <div className={styles.textWrapper}>
                     <p>
                       Sed posuere consectetur est at lobortis. Donec id elit non
-                      mi porta gravida at eget metus.
+                      mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                      cursus commodo, tortor mauris condimentum nibh. Sed
+                      posuere consectetur est at lobortis. Donec id elit non mi
+                      porta gravida at eget metus. Maecenas faucibus mollis
+                      interdum.
                     </p>
                     <p>
-                      Etiam porta sem malesuada magna mollis euismod. Cum sociis
-                      natoque penatibus et magnis dis parturient montes.
+                      Sed posuere consectetur est at lobortis. Donec id elit non
+                      mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                      cursus commodo, tortor mauris condimentum nibh. Sed
+                      posuere consectetur est at lobortis. Donec id elit non mi
+                      porta gravida at eget metus. Maecenas faucibus mollis
+                      interdum.
                     </p>
                   </div>
                   <ul className={styles.iconList}>
                     <li>
-                      <i className={styles.icon}></i> Enhanced privacy and
-                      safety.
+                      <svg
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24px"
+                        height="24px"
+                        fill="none"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            fill="rgb(28, 63, 149)"
+                            fill-rule="evenodd"
+                            d="M8 0a8 8 0 100 16A8 8 0 008 0zm2.72 5.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-2-2a.75.75 0 011.06-1.06l1.47 1.47 3.97-3.97z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                      Enhanced privacy and safety.
                     </li>
                     <li>
-                      <i className={styles.icon}></i> Professional executive
-                      staffs.
+                      <svg
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24px"
+                        height="24px"
+                        fill="none"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            fill="rgb(28, 63, 149)"
+                            fill-rule="evenodd"
+                            d="M8 0a8 8 0 100 16A8 8 0 008 0zm2.72 5.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-2-2a.75.75 0 011.06-1.06l1.47 1.47 3.97-3.97z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                      Professional executive staffs.
                     </li>
                     <li>
-                      <i className={styles.icon}></i> Next-gen innovation
-                      solutions.
+                      <svg
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24px"
+                        height="24px"
+                        fill="none"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            fill="rgb(28, 63, 149)"
+                            fill-rule="evenodd"
+                            d="M8 0a8 8 0 100 16A8 8 0 008 0zm2.72 5.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-2-2a.75.75 0 011.06-1.06l1.47 1.47 3.97-3.97z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                      Next-gen innovation solutions.
                     </li>
                     <li>
-                      <i className={styles.icon}></i> Topnotch quality services.
+                      <svg
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24px"
+                        height="24px"
+                        fill="none"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            fill="rgb(28, 63, 149)"
+                            fill-rule="evenodd"
+                            d="M8 0a8 8 0 100 16A8 8 0 008 0zm2.72 5.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-2-2a.75.75 0 011.06-1.06l1.47 1.47 3.97-3.97z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                      Topnotch quality services.
                     </li>
                   </ul>
                 </div>
