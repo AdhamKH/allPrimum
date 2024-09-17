@@ -1,0 +1,137 @@
+.section {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.columnLeft {
+  width: 48%;
+}
+
+.columnRight {
+  width: 52%;
+  margin-left: 60px;
+}
+
+.iconList {
+  ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 24px;
+
+    li {
+      display: flex;
+      align-items: center;
+      color: #1c3f95;
+      font-weight: 600;
+      font-family: "Outfit", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.2px;
+
+      .icon {
+        font-size: 16px;
+        color: #f2b72f;
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+.heading h2 {
+  font-size: 36px;
+  color: #04192a;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+.divider {
+  padding: 28px 0;
+
+  .dividerIcon {
+    font-size: 24px;
+    color: #f2b72f;
+    text-align: center;
+  }
+}
+
+.iconBox {
+  display: flex;
+  margin: 24px 0;
+
+  .iconWrapper {
+    margin-right: 16px;
+
+    .iconCircle {
+      font-size: 24px;
+      background-color: #1c3f95;
+      color: #fff;
+      padding: 12px;
+    }
+  }
+
+  .iconContent {
+    h4 {
+      font-size: 19px;
+      color: #04192a;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #3e4751;
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+.buttonWrapper {
+  margin-top: 40px;
+
+  .button {
+    display: inline-block;
+    padding: 16px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #04192a;
+    background-color: #f2b72f;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #dba52f;
+    }
+  }
+}
+
+.mainImage,
+.secondaryImage {
+  width: 100%;
+  height: auto;
+}
+
+.projectBox {
+  background-color: #1c3f95;
+  padding: 48px 24px;
+  color: #fff;
+  text-align: center;
+  margin-top: -160px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

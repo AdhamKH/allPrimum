@@ -1,15 +1,21 @@
 .container {
   position: relative;
-  height: 100dvh;
+  min-height: 100dvh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 999999999;
+  flex-direction: column;
   .loader {
     height: 27px;
     aspect-ratio: 5;
-    --c: #d4a60e 90deg, #0000 0;
+    --c: #2fef0d 90deg, #0000 0;
     background: conic-gradient(from 135deg at top, var(--c)),
       conic-gradient(from -45deg at bottom, var(--c)) 12.5% 100%;
     background-size: 20% 50%;

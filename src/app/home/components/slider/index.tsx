@@ -1,7 +1,6 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import styles from "./style.module.scss";
 import Image from "next/image";
 import bg1 from "../../../../assets/services/WhatsApp Image 2024-08-28 at 10.43.07 PM (1).jpeg";
@@ -10,6 +9,8 @@ import bg3 from "../../../../assets/services/WhatsApp Image 2024-08-28 at 10.43.
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css";
+
 import { motion } from "framer-motion";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
 import { useState } from "react";

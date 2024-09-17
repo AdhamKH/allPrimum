@@ -32,18 +32,16 @@ const Header = () => {
             </Link>
           </div>
           <div className={`${styles.booking} flex gap-2 `}>
-            <button
-              className={`${styles.bookingButton}  bg-primary`}
-              // onClick={handleOpen}
-            >
-              BYLDr Partner
-            </button>
-            <button
-              className={`${styles.bookingButton}  bg-primary`}
-              // onClick={handleOpen}
-            >
-              Submit your job
-            </button>
+            <Link href={"/BylderPartner"}>
+              <button className={`${styles.bookingButton}  bg-primary`}>
+                BYLDr Partner
+              </button>
+            </Link>
+            <Link href={"/submitAJob"}>
+              <button className={`${styles.bookingButton}  bg-primary`}>
+                Submit your job
+              </button>
+            </Link>
           </div>
         </div>
         <div className={styles.navBarContainer}>

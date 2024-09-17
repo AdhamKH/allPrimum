@@ -1,0 +1,91 @@
+.section {
+  padding: 80px 0px 60px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contentColumn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.innerSection {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.textWrapper {
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  line-height: 46.8px;
+  color: rgb(4, 25, 42);
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+.divider {
+  margin: 28px auto;
+  width: 90%;
+  height: 1px;
+  background-color: rgb(242, 183, 47);
+}
+
+.description {
+  color: rgb(62, 71, 81);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.teamWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.teamMember {
+  flex: 30%;
+  background-color: rgb(249, 246, 239);
+  border: 1px solid rgb(237, 232, 226);
+  padding: 20px;
+  text-align: center;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+  .image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    transition: transform 0.6s ease-out;
+  }
+
+  .name {
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: rgb(4, 25, 42);
+    margin-bottom: 4px;
+  }
+
+  .role {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgb(95, 103, 110);
+    line-height: 21px;
+  }
+}

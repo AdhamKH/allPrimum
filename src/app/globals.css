@@ -165,3 +165,6 @@ body {
   background: #a0c250;
   border-radius: 10px;
 }
+label {
+  display: block;
+}

@@ -36,6 +36,7 @@ const StanderInput = ({
   isSelect,
   children,
   disabled,
+  value,
   startIcon,
 }: Tinput) => {
   const {

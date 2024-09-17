@@ -1,0 +1,80 @@
+.section {
+  background-attachment: fixed;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: -27px;
+  margin-bottom: 0px;
+  padding: 160px 0px 133px;
+  background-image: url("https://www.handybuddy.oxacor.com/wp-content/uploads/professional-carpenters-woodworking-teamwork-together-creatively-e1664673619249.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 50dvh;
+  display: flex;
+}
+
+.overlay {
+  background-color: rgba(4, 25, 42, 0.7);
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.container {
+  max-width: 700px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  min-height: 1px;
+  flex-basis: auto;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headingWrapper {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.heading {
+  padding: 0px;
+  margin: 0px;
+  line-height: 62.4px;
+  // color: rgb(242, 183, 47);
+  font-family: "Outfit", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.subheadingWrapper {
+  text-align: center;
+}
+
+.subheading {
+  padding: 0px;
+  margin: 0px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.84);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}

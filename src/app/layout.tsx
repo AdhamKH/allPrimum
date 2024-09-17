@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "./home/components/header";
 import { ToastContainer } from "react-toastify";
 import Footer from "./home/components/footer";
+import Loader from "@/conponents/loader";
+import "react-toastify/dist/ReactToastify.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

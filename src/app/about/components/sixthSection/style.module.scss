@@ -1,0 +1,124 @@
+.section {
+  padding: 80px 0;
+  background-color: rgb(4, 25, 42);
+  position: relative;
+  background-image: url("https://www.handybuddy.oxacor.com/wp-content/uploads/business-with-exuberance-portrait-of-young-office-workers-sitting-at-their-computers-.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  background-color: rgba(4, 25, 42, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 100%;
+}
+
+.iconList {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.iconListItems {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.iconListItem {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.text {
+  margin-left: 5px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.heading h2 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+.divider {
+  margin: 20px auto;
+  width: 60px;
+  height: 3px;
+  background-color: rgba(242, 183, 47, 1);
+}
+
+.reviewsCarousel {
+  margin-top: 40px;
+}
+
+.reviewCard {
+  background-color: rgb(249, 246, 239);
+  padding: 60px;
+  border: 1px solid rgb(225, 232, 237);
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.reviewContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewImage {
+  width: 36px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cite {
+  margin-left: 16px;
+}
+
+.cite span {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+
+.rating i {
+  color: #f2b72f;
+}
+
+.handle {
+  display: block;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  p {
+    color: rgb(62, 71, 81);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}

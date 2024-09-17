@@ -1,0 +1,77 @@
+.section {
+  background-attachment: fixed;
+  background-image: url("https://www.handybuddy.oxacor.com/wp-content/uploads/couple-choosing-shower-faucet-in-the-shop-e1663969325535.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  width: 40%;
+  background-color: rgb(4, 25, 42);
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.textContent {
+  h2 {
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.8px;
+    margin-bottom: 32px;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.84);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+}
+
+.buttonWrapper {
+  margin-top: 60px;
+}
+
+.button {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(4, 25, 42);
+  background-color: rgb(242, 183, 47);
+  padding: 12px 40px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  width: 100%;
+
+  &:hover {
+    background-color: darken(rgb(242, 183, 47), 10%);
+  }
+}
+
+.rightColumn {
+  width: 60%;
+}

@@ -180,7 +180,7 @@ const FormContainer = () => {
     setLoading(true);
     let sendData = {
       ...formData,
-      company_id: "3",
+      company_id: companyId,
     };
 
     // fetch(`${mainUrl}/submits`, {

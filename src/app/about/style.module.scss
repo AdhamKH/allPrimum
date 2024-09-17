@@ -1,0 +1,41 @@
+.section {
+  position: relative;
+  padding: 2rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay transparency */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+}
+
+.widgetWrap {
+  text-align: center;
+}
+
+.widgetHeading {
+  margin-bottom: 1.5rem;
+}
+
+.headingTitle {
+  font-size: 2rem; /* Adjust font size as necessary */
+  margin: 0;
+}
+
+.subHeading {
+  font-size: 1.5rem; /* Adjust font size as necessary */
+  margin: 0;
+}

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={styles.content}>
         <div className={styles.section}>
           <div className={styles.column}>
-            <Image src={logo} alt="Handy Buddy Logo" />
+            <Image src={logo} alt="Handy Buddy Logo" width={200} />
             <h4>Best Handyman Services</h4>
             <p>
               We are committed to the best quality in industrial handyman
