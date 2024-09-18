@@ -50,27 +50,27 @@ const Header = () => {
               <li>
                 <Link href="/">HOME</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">SERVICES</a>
-              </li>
+              </li> */}
               <li>
                 <a href="/about">ABOUT US</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">SERVICE AREAS</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#">PROJECTS</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">PRICING</a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#">REVIEWS</a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#">PAGES</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#">CONTACT</a>
               </li>
