@@ -12,7 +12,7 @@ const Footer = () => {
         <div className={styles.section}>
           <div className={styles.column}>
             <Image src={logo} alt="Handy Buddy Logo" width={200} />
-            <h4>Best Handyman Services</h4>
+            <h4>Work smarter, not harder!</h4>
             <p>
               We are committed to the best quality in industrial handyman
               services.
@@ -22,12 +22,12 @@ const Footer = () => {
           <div className={styles.column}>
             <h4>Contact Info:</h4>
             <ul>
-              <li>
+              {/* <li>
                 <i className="fas fa-map-marker-alt"></i>324 King Street, FL,
                 USA
-              </li>
+              </li> */}
               <li>
-                <i className="fas fa-phone"></i>2135347694
+                <i className="fas fa-phone"></i>(313) 855-3750
               </li>
               <li>
                 <i className="fas fa-envelope"></i>Support@Allpremiumhome.com
