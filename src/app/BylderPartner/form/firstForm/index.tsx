@@ -77,6 +77,11 @@ const FirstForm = ({ methods, companyObj }: any) => {
               );
             }}
           />
+          {methods?.formState?.errors?.company_logo?.message && (
+            <p style={{ fontSize: "0.8rem", color: "red" }}>
+              {methods?.formState?.errors?.company_logo?.message}
+            </p>
+          )}
         </Grid>
       </Grid>
     </div>

@@ -27,7 +27,7 @@ const Footer = () => {
                 USA
               </li>
               <li>
-                <i className="fas fa-phone"></i>+1 2135347694
+                <i className="fas fa-phone"></i>2135347694
               </li>
               <li>
                 <i className="fas fa-envelope"></i>Support@Allpremiumhome.com

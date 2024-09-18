@@ -22,8 +22,10 @@ const WhyChooseUs = () => {
                 Why Choose All All Premium Solar
               </span>
               <h2>
-                We have a reliable work crew specializing in outdoor and indoor
-                projects and home maintenance.
+                We specialize in Construction management, both residential and
+                commercial. We emphasize on our processes for easy streamlining,
+                top notch workmanship, speediness to completion and most
+                importantly communication throughout its process.
               </h2>
               <hr className={styles.divider} />
             </div>

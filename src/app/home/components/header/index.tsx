@@ -20,7 +20,7 @@ const Header = () => {
         <div className={styles.topBar}>
           <div className={styles.contactInfo}>
             <span className={`${styles.phone} text-primary`}>
-              📞 +1 (123) 234 5678
+              📞 2135347694
             </span>
             <span className={`${styles.email} text-primary`}>
               ✉️ Support@Allpremiumhome.com

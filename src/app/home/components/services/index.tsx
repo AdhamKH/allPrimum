@@ -22,16 +22,15 @@ const servicesData = [
 
     title: "Operation management",
     description:
-      "A residential solar system converts sunlight into electricity, reducing energy costs and environmental impact for homeowners by providing a sustainable, renewable power source directly to their homes.",
+      "With our esteemed operational staff, our entire team is dedicated to enhancing your experience. We prioritize communication and work diligently to streamline the entire process, ensuring smooth collaboration between all vendors and customers involved, right through to job completion.",
     image: residential,
   },
 
   {
     id: 3,
-
     title: "construction management",
     description:
-      "With our esteemed operational staff, our entire team is dedicated to enhancing your experience. We prioritize communication and work diligently to streamline the entire process, ensuring smooth collaboration between all vendors and customers involved, right through to job completion.",
+      "Construction management involves planning, coordinating and overseeing your residential and commercial solar projects from inception to PTO. Securing your streamlined process for efficient installs and communication. Upholding a high quality standard.",
     image: img1,
   },
 ];

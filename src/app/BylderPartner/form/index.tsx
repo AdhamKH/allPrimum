@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./style.module.scss";
 import { Box, Step, StepLabel, Stepper } from "@mui/material";
 import FirstForm from "./firstForm";
@@ -172,13 +172,13 @@ const FormContainer = () => {
     },
   });
 
-  const { handleSubmit, reset, trigger } = methods;
-
+  const { handleSubmit, reset, trigger, formState } = methods;
+  console.log("companyObj", companyObj);
   const handleNext = async () => {
     const isStepValid = await trigger();
-    if (companyObj)
+    if (companyObj?.id) {
       if (isStepValid) setActiveStep((prevActiveStep) => prevActiveStep + 1);
-    if (!companyObj)
+    } else {
       if (activeStep === 0) {
         const formData = new FormData();
         let SendDate: any = {
@@ -191,36 +191,44 @@ const FormContainer = () => {
         for (const property in SendDate) {
           formData.append(property, SendDate[property]);
         }
-        setLoadingOne(true);
-        if (isStepValid) {
-          axios({
-            method: "post",
-            url: `${mainUrl}/builders`,
-            data: formData,
-            headers: { "Content-Type": "multipart/form-data" },
-          })
-            .then(function (response: any) {
-              setLoadingOne(false);
-              console.log("response", response);
-              toast.success("Company registered");
-              setLoading(false);
-              if (typeof window !== "undefined") {
-                sessionStorage.setItem(
-                  "registerCompany",
-                  JSON.stringify(response?.data?.data)
-                );
-              }
-
-              continueForm = true;
+        try {
+          if (isStepValid) {
+            setLoadingOne(true);
+            axios({
+              method: "post",
+              url: `${mainUrl}/builders`,
+              data: formData,
+              headers: { "Content-Type": "multipart/form-data" },
             })
-            .catch(function (response) {
-              setLoadingOne(false);
-              console.log(response);
-              toast.error("Error");
-              setLoading(false);
-            });
+              .then(function (response: any) {
+                setLoadingOne(false);
+                console.log("response", response);
+                toast.success("Company registered");
+                setLoading(false);
+                if (typeof window !== "undefined") {
+                  sessionStorage.setItem(
+                    "registerCompany",
+                    JSON.stringify(response?.data?.data)
+                  );
+                }
+                if (response) {
+                  // setActiveStep(1);
+                }
+
+                continueForm = true;
+              })
+              .catch(function (response) {
+                setLoadingOne(false);
+                console.log(response);
+                toast.error("Error");
+                setLoading(false);
+              });
+          }
+        } catch (e) {
+          setLoadingOne(false);
         }
       }
+    }
   };
 
   const handleBack = () => {
