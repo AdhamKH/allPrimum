@@ -89,8 +89,8 @@
 }
 
 .reviewImage {
-  width: 36px;
-  height: 64px;
+  width: 5.5rem;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -107,12 +107,12 @@
 }
 
 .rating i {
-  color: #f2b72f;
+  // color: #f2b72f;
 }
 
 .handle {
   display: block;
-  color: rgba(255, 255, 255, 0.84);
+  color: black;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   p {

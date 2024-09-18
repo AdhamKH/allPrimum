@@ -113,6 +113,20 @@ const SlidingPane: React.FC<props> = ({ open, setOpen }: props) => {
             >
               <Link href={`/about/`}>About us</Link>
             </motion.li>
+            <motion.li
+              variants={navItem}
+              transition={{ duration: 2, delay: 3 }}
+              className={styles.liFont}
+            >
+              <Link href={`/BylderPartner`}>BYLDr Partner</Link>
+            </motion.li>
+            <motion.li
+              variants={navItem}
+              transition={{ duration: 2, delay: 3 }}
+              className={styles.liFont}
+            >
+              <Link href={`/submitAJob`}>Submit your job</Link>
+            </motion.li>
           </motion.ul>
         </div>
       </div>

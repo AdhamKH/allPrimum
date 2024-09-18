@@ -42,6 +42,15 @@ const TestimonialsSection = () => {
             autoplay={{ delay: 4000, disableOnInteraction: false }}
             loop={true}
             className={styles.reviewsCarousel}
+            breakpoints={{
+              0: {
+                slidesPerView: 1, // One slide for small screens
+              },
+              // Larger screens (like tablets and up)
+              768: {
+                slidesPerView: 2, // Two slides for larger screens
+              },
+            }}
           >
             <SwiperSlide>
               <div className={styles.reviewCard}>
