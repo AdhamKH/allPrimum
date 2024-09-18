@@ -52,7 +52,7 @@ const HeroSlider = () => {
                       wrapper="p"
                       speed={50}
                       repeat={1}
-                      className={`${styles.pAnimate} text-3xl`}
+                      className={`${styles.pAnimate} text-4xl`}
                     />
                   </div>
                   <div className={styles.badges}>
@@ -70,7 +70,7 @@ const HeroSlider = () => {
                     </div>
                   </div>
 
-                  <h1>
+                  <h1 className="text-2xl">
                     All of your{" "}
                     <span className="text-primary"> licensed contractors</span>{" "}
                     under one roof with
@@ -92,7 +92,7 @@ const HeroSlider = () => {
                       <span>Same Price</span>
                     </div>
                   </div>
-                  <p className="text-3xl font-serif">
+                  <p className="text-2xl font-serif">
                     Simplified management for consistent, reliable results,
                     every time!
                   </p>

@@ -56,66 +56,61 @@ const PrinciplesValuesVision = () => {
       <div className={styles.card}>
         <i className="fas fa-star"></i>
         <h4>Our Principles</h4>
-        <p>
-          <ul>
-            <li>
-              <strong>Integrity</strong>: We uphold honesty, transparency, and
-              trust in all our partnerships, delivering on our promises every
-              time.
-            </li>
-            <li>
-              <strong>Quality</strong>: Our commitment to excellence ensures
-              every project is completed with the highest standards, from
-              planning to execution.
-            </li>
-            <li>
-              <strong>Efficiency</strong>: We streamline processes to maximize
-              productivity and minimize delays, providing reliable and on-time
-              solutions.
-            </li>
-            <li>
-              <strong>Accountability</strong>: We take full responsibility for
-              our work, ensuring clear communication and a results-driven
-              approach.
-            </li>
-            <li>
-              <strong>Innovation</strong>: We embrace new technologies and
-              strategies to stay ahead of industry trends, continually improving
-              our services.
-            </li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <strong>Integrity</strong>: We uphold honesty, transparency, and
+            trust in all our partnerships, delivering on our promises every
+            time.
+          </li>
+          <li>
+            <strong>Quality</strong>: Our commitment to excellence ensures every
+            project is completed with the highest standards, from planning to
+            execution.
+          </li>
+          <li>
+            <strong>Efficiency</strong>: We streamline processes to maximize
+            productivity and minimize delays, providing reliable and on-time
+            solutions.
+          </li>
+          <li>
+            <strong>Accountability</strong>: We take full responsibility for our
+            work, ensuring clear communication and a results-driven approach.
+          </li>
+          <li>
+            <strong>Innovation</strong>: We embrace new technologies and
+            strategies to stay ahead of industry trends, continually improving
+            our services.
+          </li>
+        </ul>
       </div>
       <div className={styles.card}>
         <i className="fas fa-heart"></i>
         <h4>Our Values</h4>
-        <p>
-          <ul>
-            <li>
-              <strong>Customer-Centric</strong>: Our clients' success is our top
-              priority, and we work closely with them to meet their goals.
-            </li>
-            <li>
-              <strong>Collaboration</strong>: We believe in teamwork—both
-              internally and with our partners—to achieve shared success.
-            </li>
-            <li>
-              <strong>Sustainability</strong>: We are committed to promoting
-              environmentally conscious practices that contribute to a greener
-              future.
-            </li>
-            <li>
-              <strong>Respect</strong>: We foster a culture of respect, valuing
-              the contributions and perspectives of all our employees, partners,
-              and clients.
-            </li>
-            <li>
-              <strong>Professionalism</strong>: We maintain the highest
-              standards of professionalism in everything we do, ensuring quality
-              and reliability.
-            </li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <strong>Customer-Centric</strong>: Our clients' success is our top
+            priority, and we work closely with them to meet their goals.
+          </li>
+          <li>
+            <strong>Collaboration</strong>: We believe in teamwork—both
+            internally and with our partners—to achieve shared success.
+          </li>
+          <li>
+            <strong>Sustainability</strong>: We are committed to promoting
+            environmentally conscious practices that contribute to a greener
+            future.
+          </li>
+          <li>
+            <strong>Respect</strong>: We foster a culture of respect, valuing
+            the contributions and perspectives of all our employees, partners,
+            and clients.
+          </li>
+          <li>
+            <strong>Professionalism</strong>: We maintain the highest standards
+            of professionalism in everything we do, ensuring quality and
+            reliability.
+          </li>
+        </ul>
       </div>
       <div className={styles.card}>
         <i className="fas fa-eye"></i>
