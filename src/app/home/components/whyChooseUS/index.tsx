@@ -5,6 +5,7 @@ import bigImg from "../../../../assets/whyChooseUs/WhatsApp Image 2024-09-11 at 
 import Image from "next/image";
 import { useState } from "react";
 import SelectForm from "../selectForm";
+import Link from "next/link";
 const WhyChooseUs = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -81,18 +82,22 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="flex gap-2 items-center">
-              <button
-                className={`${styles.bookingButton} bg-primary`}
-                // onClick={handleOpen}
-              >
-                BYLDr Partner
-              </button>
-              <button
-                className={`${styles.bookingButton} bg-primary`}
-                // onClick={handleOpen}
-              >
-                Submit your job
-              </button>
+              <Link href="/BylderPartner">
+                <button
+                  className={`${styles.bookingButton} bg-primary`}
+                  // onClick={handleOpen}
+                >
+                  BYLDr Partner
+                </button>
+              </Link>
+              <Link href={"/submitAJob"}>
+                <button
+                  className={`${styles.bookingButton} bg-primary`}
+                  // onClick={handleOpen}
+                >
+                  Submit your job
+                </button>
+              </Link>
             </div>
           </div>
           <div className={styles.imageSection}>

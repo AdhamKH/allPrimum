@@ -99,12 +99,14 @@ const HeroSlider = () => {
                   <p>We manage all of your solar installs.</p>
 
                   <div className={styles.cta}>
-                    <button
-                      className={`${styles.bookingButton} bg-primary`}
-                      // onClick={handleOpen}
-                    >
-                      BYLDr Partner
-                    </button>
+                    <Link href={"/BylderPartner"}>
+                      <button
+                        className={`${styles.bookingButton} bg-primary`}
+                        // onClick={handleOpen}
+                      >
+                        BYLDr Partner
+                      </button>
+                    </Link>
                     <Link href={"/submitAJob"}>
                       <button
                         className={`${styles.bookingButton} bg-primary`}
@@ -184,12 +186,14 @@ const HeroSlider = () => {
                   <p>We manage all of your solar installs.</p>
 
                   <div className={styles.cta}>
-                    <button
-                      className={`${styles.bookingButton} bg-primary`}
-                      // onClick={handleOpen}
-                    >
-                      BYLDr Partner
-                    </button>
+                    <Link href={"/BylderPartner"}>
+                      <button
+                        className={`${styles.bookingButton} bg-primary`}
+                        // onClick={handleOpen}
+                      >
+                        BYLDr Partner
+                      </button>
+                    </Link>
                     <Link href={"/submitAJob"}>
                       <button
                         className={`${styles.bookingButton} bg-primary`}
@@ -269,12 +273,14 @@ const HeroSlider = () => {
                   <p>We manage all of your solar installs.</p>
 
                   <div className={styles.cta}>
-                    <button
-                      className={`${styles.bookingButton} bg-primary`}
-                      // onClick={handleOpen}
-                    >
-                      BYLDr Partner
-                    </button>
+                    <Link href={"/BylderPartner"}>
+                      <button
+                        className={`${styles.bookingButton} bg-primary`}
+                        // onClick={handleOpen}
+                      >
+                        BYLDr Partner
+                      </button>
+                    </Link>
                     <Link href={"/submitAJob"}>
                       <button
                         className={`${styles.bookingButton} bg-primary`}

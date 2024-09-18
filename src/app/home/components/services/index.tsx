@@ -7,6 +7,7 @@ import Image from "next/image";
 import SlidingPane from "@/conponents/slidingPane";
 import { useState } from "react";
 import SelectForm from "../selectForm";
+import Link from "next/link";
 
 const servicesData = [
   {
@@ -80,18 +81,22 @@ export default function Services() {
             ))}
           </div>
           <div className={styles.actions}>
-            <button
-              className={`${styles.scheduleBtn} bg-primary`}
-              onClick={handleOpen}
-            >
-              BYLDr Partner
-            </button>
-            <button
-              className={`${styles.scheduleBtn} bg-primary`}
-              onClick={handleOpen}
-            >
-              Submit your job
-            </button>
+            <Link href={"/BylderPartner"}>
+              <button
+                className={`${styles.scheduleBtn} bg-primary`}
+                onClick={handleOpen}
+              >
+                BYLDr Partner
+              </button>
+            </Link>
+            <Link href={"/submitAJob"}>
+              <button
+                className={`${styles.scheduleBtn} bg-primary`}
+                onClick={handleOpen}
+              >
+                Submit your job
+              </button>
+            </Link>
             {/* <p className={styles.contactInfo}>
               <span role="img" aria-label="phone">
                 📞
