@@ -1,6 +1,8 @@
 "use client";
 import styles from "./style.module.scss";
-import img1 from "../../../../assets/services/1.jpg";
+import img1 from "../../../../assets/services/WhatsApp Image 2024-09-19 at 12.57.35 AM.jpeg";
+import img2 from "../../../../assets/services/WhatsApp Image 2024-09-19 at 12.57.35 AM (1).jpeg";
+import img3 from "../../../../assets/services/WhatsApp Image 2024-09-19 at 12.57.34 AM.jpeg";
 import commercial from "../../../../assets/services/WhatsApp Image 2024-08-28 at 10.43.07 PM (1).jpeg";
 import residential from "../../../../assets/services/DALL·E 2024-09-02 10.40.17 - A modern residential home with solar panels installed on the roof. The house is situated in a sunny suburban neighborhood with green lawns and trees. .webp";
 import Image from "next/image";
@@ -23,7 +25,7 @@ const servicesData = [
     title: "Operation management",
     description:
       "With our esteemed operational staff, our entire team is dedicated to enhancing your experience. We prioritize communication and work diligently to streamline the entire process, ensuring smooth collaboration between all vendors and customers involved, right through to job completion.",
-    image: residential,
+    image: img2,
   },
 
   {
@@ -31,7 +33,7 @@ const servicesData = [
     title: "construction management",
     description:
       "Construction management involves planning, coordinating and overseeing your residential and commercial solar projects from inception to PTO. Securing your streamlined process for efficient installs and communication. Upholding a high quality standard.",
-    image: img1,
+    image: img3,
   },
 ];
 
@@ -72,7 +74,7 @@ export default function Services() {
                 <p>{service.description}</p>
                 <button
                   className={`${styles.viewDetailsBtn} bg-primary`}
-                  onClick={() => handleSelect(service.id)}
+                  // onClick={() => handleSelect(service.id)}
                 >
                   View Details
                 </button>

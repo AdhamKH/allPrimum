@@ -28,6 +28,9 @@
   .email {
     // color: #d4a60e;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   @media (max-width: 768px) {

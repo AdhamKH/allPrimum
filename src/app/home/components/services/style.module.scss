@@ -70,10 +70,17 @@
   transform: translateY(-5px);
 }
 .imageContainer {
-  width: 100%; /* Set the desired width */
-  height: auto; /* Set the desired height */
+  // width: 25rem;
+  // height: 20rem;
+  max-width: 100%;
+  max-height: 12rem;
   overflow: hidden;
   display: inline-block;
+  img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
 }
 .serviceImage {
   width: 100%;
