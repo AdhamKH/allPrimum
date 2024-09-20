@@ -7,7 +7,7 @@ const StatsSection = () => {
         <div className={styles.statBox}>
           <div className={styles.statContent}>
             <div className={styles.counter}>
-              <span className={styles.value}>800</span>+
+              <span className={styles.value}>8000</span>+
             </div>
             <div className={styles.label}>Happy Clients</div>
           </div>
@@ -16,7 +16,7 @@ const StatsSection = () => {
         <div className={styles.statBox}>
           <div className={styles.statContent}>
             <div className={styles.counter}>
-              <span className={styles.value}>20</span>+
+              <span className={styles.value}>60</span>+
             </div>
             <div className={styles.label}>Service Locations</div>
           </div>
@@ -25,7 +25,7 @@ const StatsSection = () => {
         <div className={styles.statBox}>
           <div className={styles.statContent}>
             <div className={styles.counter}>
-              <span className={styles.value}>2000</span>+
+              <span className={styles.value}>8000</span>+
             </div>
             <div className={styles.label}>Completed Projects</div>
           </div>
@@ -34,7 +34,7 @@ const StatsSection = () => {
         <div className={styles.statBox}>
           <div className={styles.statContent}>
             <div className={styles.counter}>
-              <span className={styles.value}>16</span>+
+              <span className={styles.value}>25</span>+
             </div>
             <div className={styles.label}>Years of Experience</div>
           </div>

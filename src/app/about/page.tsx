@@ -15,7 +15,7 @@ const AboutUsPage = () => {
       <AboutUsFirst />
       <ServiceSection />
       <HandymanServicesSection />
-      <ExpertTeamSection />
+      {/* <ExpertTeamSection /> */}
       <StatsSection />
       <TestimonialsSection />
     </section>

@@ -52,6 +52,9 @@
 
 .buttonWrapper {
   margin-top: 60px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .button {
@@ -59,8 +62,8 @@
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
-  color: rgb(4, 25, 42);
-  background-color: rgb(242, 183, 47);
+  // color: rgb(4, 25, 42);
+  // background-color: rgb(242, 183, 47);
   padding: 12px 40px;
   display: inline-block;
   text-align: center;

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./style.module.scss";
 
 const HandymanServicesSection = () => {
@@ -19,12 +20,18 @@ const HandymanServicesSection = () => {
             </div>
           </div>
           <div className={styles.buttonWrapper}>
-            <a
-              href="https://www.handybuddy.oxacor.com/booking/"
-              className={styles.button}
+            <Link
+              href={"/BylderPartner"}
+              className={`${styles.button} bg-primary text-text-primary`}
             >
-              Schedule A Booking
-            </a>
+              BYLDr Partner
+            </Link>
+            <Link
+              href={"/submitAJob"}
+              className={`${styles.button} bg-primary text-text-primary`}
+            >
+              Submit your job{" "}
+            </Link>
           </div>
         </div>
         <div className={styles.rightColumn}></div>

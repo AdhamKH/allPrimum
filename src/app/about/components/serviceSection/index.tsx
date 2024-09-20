@@ -15,21 +15,20 @@ const ServiceSection = () => {
                     </h2>
                   </div>
                   <div className={styles.textWrapper}>
-                    <p>
+                    {/* <p>
                       Sed posuere consectetur est at lobortis. Donec id elit non
                       mi porta gravida at eget metus. Fusce dapibus, tellus ac
                       cursus commodo, tortor mauris condimentum nibh. Sed
                       posuere consectetur est at lobortis. Donec id elit non mi
                       porta gravida at eget metus. Maecenas faucibus mollis
                       interdum.
-                    </p>
+                    </p> */}
                     <p>
-                      Sed posuere consectetur est at lobortis. Donec id elit non
-                      mi porta gravida at eget metus. Fusce dapibus, tellus ac
-                      cursus commodo, tortor mauris condimentum nibh. Sed
-                      posuere consectetur est at lobortis. Donec id elit non mi
-                      porta gravida at eget metus. Maecenas faucibus mollis
-                      interdum.
+                      We specialize in Construction management, both residential
+                      and commercial. We emphasize on our processes for easy
+                      streamlining, top notch workmanship, speediness to
+                      completion and most importantly communication throughout
+                      its process.
                     </p>
                   </div>
                   <ul className={styles.iconList}>
@@ -56,7 +55,7 @@ const ServiceSection = () => {
                           ></path>
                         </g>
                       </svg>
-                      Enhanced privacy and safety.
+                      Efficient Network
                     </li>
                     <li>
                       <svg
@@ -81,7 +80,7 @@ const ServiceSection = () => {
                           ></path>
                         </g>
                       </svg>
-                      Professional executive staffs.
+                      Seamless Communication
                     </li>
                     <li>
                       <svg
@@ -106,7 +105,7 @@ const ServiceSection = () => {
                           ></path>
                         </g>
                       </svg>
-                      Next-gen innovation solutions.
+                      Permit Handling
                     </li>
                     <li>
                       <svg
@@ -131,7 +130,7 @@ const ServiceSection = () => {
                           ></path>
                         </g>
                       </svg>
-                      Topnotch quality services.
+                      Scheduling & Coordination
                     </li>
                   </ul>
                 </div>
@@ -150,20 +149,66 @@ const ServiceSection = () => {
                 <span className={styles.infoIcon}></span>
                 <div className={styles.infoText}>
                   <h3>Our Principles</h3>
-                  <p>
-                    Fusce dapibus, tellus ac cursus commodo torto nibh ut massa
-                    justo sit amet risus maecenas faucibus.
-                  </p>
+                  <ul>
+                    <li>
+                      <strong>Integrity</strong>: We uphold honesty,
+                      transparency, and trust in all our partnerships,
+                      delivering on our promises every time.
+                    </li>
+                    <li>
+                      <strong>Quality</strong>: Our commitment to excellence
+                      ensures every project is completed with the highest
+                      standards, from planning to execution.
+                    </li>
+                    <li>
+                      <strong>Efficiency</strong>: We streamline processes to
+                      maximize productivity and minimize delays, providing
+                      reliable and on-time solutions.
+                    </li>
+                    <li>
+                      <strong>Accountability</strong>: We take full
+                      responsibility for our work, ensuring clear communication
+                      and a results-driven approach.
+                    </li>
+                    <li>
+                      <strong>Innovation</strong>: We embrace new technologies
+                      and strategies to stay ahead of industry trends,
+                      continually improving our services.
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className={styles.infoBlock}>
                 <span className={styles.infoIcon}></span>
                 <div className={styles.infoText}>
                   <h3>Our Values</h3>
-                  <p>
-                    Fusce dapibus, tellus ac cursus commodo torto nibh ut massa
-                    justo sit amet risus maecenas faucibus.
-                  </p>
+                  <ul>
+                    <li>
+                      <strong>Customer-Centric</strong>: Our clients' success is
+                      our top priority, and we work closely with them to meet
+                      their goals.
+                    </li>
+                    <li>
+                      <strong>Collaboration</strong>: We believe in
+                      teamwork—both internally and with our partners—to achieve
+                      shared success.
+                    </li>
+                    <li>
+                      <strong>Sustainability</strong>: We are committed to
+                      promoting environmentally conscious practices that
+                      contribute to a greener future.
+                    </li>
+                    <li>
+                      <strong>Respect</strong>: We foster a culture of respect,
+                      valuing the contributions and perspectives of all our
+                      employees, partners, and clients.
+                    </li>
+                    <li>
+                      <strong>Professionalism</strong>: We maintain the highest
+                      standards of professionalism in everything we do, ensuring
+                      quality and reliability.
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className={styles.infoBlock}>
@@ -171,8 +216,15 @@ const ServiceSection = () => {
                 <div className={styles.infoText}>
                   <h3>Our Vision</h3>
                   <p>
-                    Fusce dapibus, tellus ac cursus commodo torto nibh ut massa
-                    justo sit amet risus maecenas faucibus.
+                    To be the leading nationwide provider of construction and
+                    project management services in the solar industry,
+                    recognized for our unwavering commitment to quality,
+                    innovation, and customer satisfaction. We aim to
+                    revolutionize the way solar projects are managed, creating a
+                    seamless experience that drives sustainable growth for our
+                    clients and partners. Through our professional network of
+                    vetted contractors, we aspire to set the industry standard
+                    for excellence in solar energy solutions.
                   </p>
                 </div>
               </div>
