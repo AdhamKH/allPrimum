@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./style.module.scss";
+import Image from "next/image";
+import logo from "../../assets/logo-removebg-preview_prev_ui.png";
 const Loader = () => {
   return (
-    <div className={styles.container}>
-      <div>Loading...</div>
-      <div className={styles.loader}></div>
+    <div className={styles.loaderContainer}>
+      <div className={styles.imageContainer}>
+        <div className={styles.loader}></div>
+        <Image src={logo} alt="logo" width={200}></Image>
+      </div>
     </div>
   );
 };
