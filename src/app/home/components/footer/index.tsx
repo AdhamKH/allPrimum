@@ -14,7 +14,7 @@ const Footer = () => {
             <Image src={logo} alt="Handy Buddy Logo" width={200} />
             <h4>Work smarter, not harder!</h4>
             <p>
-              We are committed to the best quality in industrial handyman
+              We are committed to the best quality in All Premium Solar
               services.
             </p>
           </div>
@@ -94,7 +94,7 @@ const Footer = () => {
             <h4>Open Hours:</h4>
             <ul>
               <li>
-                <i className="far fa-clock"></i>Mon – Sat: 8 am – 8 pm
+                <i className="far fa-clock"></i>Mon – Sat: 24/7
               </li>
               <li>
                 <i className="far fa-clock"></i>Sunday: Closed

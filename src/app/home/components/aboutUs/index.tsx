@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className={styles.aboutUsSection}>
       <div className={styles.textContent}>
-        <h3>Experience the All All Premium Solar Advantage</h3>
+        <h3>Experience the All Premium Solar Advantage</h3>
         <p>
           By choosing us, you gain peace of mind knowing that every aspect of
           your solar installation process is handled with expertise and
@@ -20,24 +20,7 @@ const AboutUs = () => {
           exceeds your expectations. Contact us today to learn more about how we
           can support your needs and drive your projects forward.
         </p>
-        {/* <ul className={styles.highlights}>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Dedicated to quality handyman work.</span>
-          </li>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Home repairs handled with care.</span>
-          </li>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Accurate fix, satisfaction guaranteed.</span>
-          </li>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Save money on your repair projects.</span>
-          </li>
-        </ul> */}
+
         <a href="#more-about-us" className={styles.aboutButton}>
           More About Us
         </a>

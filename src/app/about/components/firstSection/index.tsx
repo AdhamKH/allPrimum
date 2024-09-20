@@ -12,7 +12,7 @@ const AboutUsFirst = () => {
             </div>
             <div className={styles.subheadingWrapper}>
               <div className={styles.subheading}>
-                Your friendly neighborhood handyman.
+                Your friendly neighborhood All Premium Solar.
               </div>
             </div>
           </div>

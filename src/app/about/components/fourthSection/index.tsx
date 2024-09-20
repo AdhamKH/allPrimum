@@ -11,8 +11,8 @@ const ExpertTeamSection = () => {
               <div className={styles.divider}></div>
               <p className={styles.description}>
                 Our passion for fixing never dies. We are committed to providing
-                top-notch handyman services. A skilled handyman is available to
-                help.
+                top-notch All Premium Solar services. A skilled All Premium
+                Solar is available to help.
               </p>
             </div>
           </section>

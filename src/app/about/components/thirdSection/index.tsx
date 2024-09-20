@@ -8,7 +8,7 @@ const HandymanServicesSection = () => {
           <div className={styles.textContainer}>
             <div className={styles.textContent}>
               <h2 className={styles.heading}>
-                Count on us for all your handyman services.
+                Count on us for all your All Premium Solar services.
               </h2>
               <p className={styles.description}>
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
