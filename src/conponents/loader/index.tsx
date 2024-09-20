@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./style.module.scss";
 import Image from "next/image";
-import logo from "../../assets/logo-removebg-preview_prev_ui.webp";
+import logo from "../../assets/logo-removebg-preview_prev_ui (1).webp";
 const Loader = () => {
   return (
     <div className={styles.loaderContainer}>
